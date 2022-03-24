@@ -16,4 +16,10 @@
 body {
   font-size: 16px;
   font-family: 'Red Hat Display', sans-serif;
+  /* Setting background to pale blue to cover the bottom "wave" */
+  background-color: var(--p-pale-blue);
+  /* Set the top "wave" as the svg image */
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
