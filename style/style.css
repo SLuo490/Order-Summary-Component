@@ -1,0 +1,19 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --p-pale-blue: hsl(225, 100%, 94%);
+  --p-bright-blue: hsl(245, 75%, 52%);
+  --n-Very-pale-blue: hsl(225, 100%, 98%);
+  --n-Desaturated-blue: hsl(224, 23%, 55%);
+  --n-Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+}
