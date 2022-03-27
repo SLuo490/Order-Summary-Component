@@ -6,6 +6,7 @@
 }
 
 :root {
+  --white: hsl(0, 0%, 100%);
   --p-pale-blue: hsl(225, 100%, 94%);
   --p-bright-blue: hsl(245, 75%, 52%);
   --n-Very-pale-blue: hsl(225, 100%, 98%);
@@ -16,10 +17,30 @@
 body {
   font-size: 16px;
   font-family: 'Red Hat Display', sans-serif;
-  /* Setting background to pale blue to cover the bottom "wave" */
-  background-color: var(--p-pale-blue);
-  /* Set the top "wave" as the svg image */
-  background-image: url(/images/pattern-background-desktop.svg);
+}
+
+.container {
+  height: 100vh;
+  /* User url as top wave*/
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  /* Use background color as bottom wave */
+  background-color: var(--p-pale-blue);
+
+  /* Center Container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  background-color: var(--white);
+  max-width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 20px 50px -7px rgb(183, 191, 241);
+  padding-bottom: 2rem;
 }
