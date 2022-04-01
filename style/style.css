@@ -65,6 +65,7 @@ p {
   padding: 0 20px 10px;
 }
 
+/* Styling the card-plans */
 .card-plan {
   display: grid;
   grid-auto-flow: column;
@@ -79,11 +80,59 @@ p {
   margin-right: 65px;
 }
 
+.card-plan .change {
+  font-weight: 600;
+}
+
+.card-plan .change:hover {
+  color: hsl(245, 83%, 68%);
+}
+
 .card-plan .price .selected-plan {
   font-weight: 900;
   color: black;
   padding: 0;
   margin-top: 8px;
+}
+
+/* Center the buttons */
+.card .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Proceed to Payment styles */
+.card .button .payment {
+  text-decoration: none;
+  background-color: var(--p-bright-blue);
+  color: var(--white);
+  border-radius: 0.5rem;
+  padding: 0.7rem 6.3rem;
+  font-weight: 600;
+  border-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 25px 30px -7px rgb(197, 189, 245);
+}
+
+.card .button .payment:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+
+/* Cencel */
+.card .button .cancel {
+  text-decoration: none;
+  border-style: none;
+  color: var(--n-Desaturated-blue);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.card .button .cancel:hover {
+  color: var(--dark-blue);
 }
 
 .attribution {
