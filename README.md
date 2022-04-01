@@ -25,6 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
+<div>
+  <img src = "https://github.com/SLuo490/Order-Summary-Component/blob/master/Screenshot/desktop.png" width = "400" height = "700">
+  <img src = "https://github.com/SLuo490/Order-Summary-Component/blob/master/Screenshot/active_state.png" width = "400" height = "700">
+</div>
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
